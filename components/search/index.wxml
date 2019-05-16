@@ -1,0 +1,4 @@
+<view class="search-container">
+  <view class="search-select">厦门市<image src="./icon/san.png"></image></view>
+  <view class="search" bind:tap="onSearch"><image src="./icon/fangda.png"></image>搜索公寓/商圈</view>
+</view>

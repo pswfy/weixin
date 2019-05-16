@@ -1,0 +1,49 @@
+.swiper-nav{
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  margin: 0 10px;
+  height: 400rpx;
+}
+.swiper-nav::-webkit-scrollbar {
+    display: none;
+}
+.swiper-nav-list{
+  position: relative;
+  margin-right: 30rpx;
+}
+.swiper-nav-list>image{
+  height: 400rpx;
+  width: 640rpx;
+}
+.swiper-nav-info{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 640rpx;
+  height: 100rpx;
+  color: #fff;
+  background:rgba(0,0,0,.5);
+  padding: 10rpx;
+  box-sizing: border-box;
+}
+.title{
+  font-size: 32rpx;
+}
+.price{
+  display: inline-flex;
+  padding: 1rpx 6rpx;
+  background: yellow;
+  font-size: 24rpx;
+  color: #333;
+  margin-left: 6rpx;
+  height: 32rpx;
+  line-height: 32rpx;
+  box-sizing: border-box;
+  align-content: center;
+}
+.msg{
+  font-size: 26rpx;
+  padding-top: 10rpx;
+  box-sizing: border-box;
+}

@@ -1,0 +1,39 @@
+<view class="container">
+  <view class="container-info">
+    <view class="max-image">
+      <image src='../../images/text/w-6.jpg'></image>
+      <text class="see">323人想看</text>
+    </view>
+    <view class="info-content">
+      <view class="info-img">
+          <view class="images">
+              <image src='../../images/text/w-1.jpg'></image>
+              <view class="text">
+                  <text>清新小单间A</text>
+                  <text>900-1500</text>
+              </view>
+              <image src='../../images/text/w-2.jpg'></image>
+              <view class="text">
+                  <text>清新小单间A</text>
+                  <text>900-1500</text>
+              </view>
+          </view>
+          <view class="images" >
+          <image src='../../images/text/w-3.jpg'></image>
+          <view class="text">
+            <text>清新小单间A</text>
+            <text>900-1500</text>
+          </view>
+        </view>
+      </view>
+      <view class="info-text">
+        <view class="item-te">
+        <text class>青年优品</text>
+        <text class>青年优品</text>
+        </view>
+        <text class="derr-name">龙湖冠寓-机场港中路店</text>
+        <text class="derr">县后湖里区上家</text>
+      </view>
+    </view>
+  </view>
+</view>

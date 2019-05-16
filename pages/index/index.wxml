@@ -1,0 +1,23 @@
+<view class="container">
+  <!-- 搜索框 -->
+  <view class="w-search" wx:if="{{ !searchong }}">
+    <w-search bind:search="onSearch"/>
+  </view>
+  <!-- 搜索面板 -->
+  <w-showSearch bind:cancel="onCancel" wx:if="{{ searchong }}" />
+  <!-- 轮播图 -->
+  <w-swiper/>
+  <!-- 热门公寓 -->
+  <w-bookCover title="热门租房商圈"/>
+  <!-- 标题 -->
+  <w-header title="本周新上公寓"/>
+  <!-- 本周最新 -->
+  <w-swiperNav/>
+  <!-- 标题 -->
+  <w-header title="严选公寓"/>
+  <!-- 选择 -->
+  <w-selectBox/>
+  <!-- 公寓展示区  -->
+  <w-showBox/>
+  <w-showBox/>
+</view>

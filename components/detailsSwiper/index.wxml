@@ -1,0 +1,17 @@
+<view class="comnainer">
+  <swiper class="swiper-container" indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" circular="{{circular}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}"  wx:for-index ="index" wx:key="index">
+    <swiper-item>
+      <image bind:touchstart = "onSriperTouchstart" data-text="{{item.text}}" src="{{item.url}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+  </swiper> 
+  <view class="swiper-li">
+    <view class="swiper-li-item" wx:for="{{imgUrlsText}}" wx:for-index ="index" wx:key="index">
+      <text class="swiper-li-item-text">{{item}}</text>
+      <image wx:if="{{item === text}}" src='../../images/icon/sans.png' class="swiper-li-item-icon"></image>
+      <image wx:elif="{{index === 0 && text === ''}}" src='../../images/icon/sans.png' class="swiper-li-item-icon"></image>
+    </view>
+  </view>
+</view>

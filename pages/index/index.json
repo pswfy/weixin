@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "w-search":"../../components/search/index",
+    "w-swiper":"../../components/swiper/index",
+    "w-bookCover":"../../components/bookCover/index",
+    "w-header": "../../components/header/index",
+    "w-swiperNav": "../../components/swiperNav/index",
+    "w-selectBox": "../../components/selectBox/index",
+    "w-showBox": "../../components/showBox/index",
+    "w-showSearch": "../../components/showSearch/index"
+  }
+}

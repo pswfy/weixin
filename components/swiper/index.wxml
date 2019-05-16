@@ -1,0 +1,21 @@
+<view class="swiper-container">
+  <view class="swiper-main">
+    <view class="swiper-min-images" wx:for = '{{sriperData}}' wx:for-item = 'item' wx:for-index ="index" bind:tap = "onSriper" wx:key="index" data-url="{{item.url}}" bind:touchstart ="sriperTouchStartt" bind:touchend ="sriperTouchend">
+      <image src="{{item.images}}"></image>
+      <view class="title-text">
+        <view class="title-text-1"><text>{{item.title}}</text></view>
+        <view class="title-text-2">{{item.titles}}</view></view>
+    </view>
+  </view>
+</view>
+<view class="swiper-li">
+    <i class="i{{i === 0? '1':''}}"></i>
+    <span></span>
+     <i class="i{{i === 1? '1':''}}"></i>
+    <span></span>
+     <i class="i{{i === 2? '1':''}}"></i>
+    <span></span>
+     <i class="i{{i === 3? '1':''}}"></i>
+    <span></span>
+     <i class="i{{i === 4? '1':''}}"></i>
+</view>

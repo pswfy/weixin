@@ -1,0 +1,25 @@
+<view class="container">
+  <w-header title="{{title}}"/>
+  <view class="container-main">
+    <view class="container-main-item">
+      <image src="../../images/text/w-22.jpg"></image>
+      <text class="max-header">HuoZhe</text>
+      <text class="min-header">软件园二期</text>
+    </view>
+    <view class="container-main-item">
+      <image src="../../images/text/w-23.jpg"></image>
+      <text class="max-header">HuoZhe</text>
+      <text class="min-header">软件园二期</text>
+    </view>
+    <view class="container-main-item">
+      <image src="../../images/text/w-24.jpg"></image>
+      <text class="max-header">HuoZhe</text>
+      <text class="min-header">软件园二期</text>
+    </view>
+    <view class="container-main-item">
+      <image src="../../images/text/w-25.jpg"></image>
+      <text class="max-header">HuoZhe</text>
+      <text class="min-header">软件园二期</text>
+    </view>
+  </view>
+</view>

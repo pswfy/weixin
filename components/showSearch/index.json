@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "v-tag": "../tag/index",
+    "w-showBox": "../showBox/index"
+  }
+}

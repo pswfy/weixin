@@ -1,0 +1,98 @@
+<view class="swiper-nav">
+  <view class="swiper-nav-list">
+    <image src='../../images/text/w-1.jpg'></image>
+    <view class="swiper-nav-info">
+      <view class="title-price">
+        <span class="title">
+          <text>魔域-格林城堡</text>
+        </span>
+        <span class="price">
+          <text>￥1850-2650</text>
+        </span>
+      </view>
+      <view class="msg">
+        <text>厦门市湖里区县后社</text>
+      </view>
+    </view>
+  </view>
+  <view class="swiper-nav-list">
+    <image src='../../images/text/w-2.jpg'></image>
+    <view class="swiper-nav-info">
+      <view>
+        <span class="title">
+          <text>魔域-格林城堡</text>
+        </span>
+        <span class="price">
+          <text>￥1850-2650</text>
+        </span>
+      </view>
+      <view class="msg">
+        <text>厦门市湖里区县后社</text>
+      </view>
+    </view>
+  </view>
+  <view class="swiper-nav-list">
+    <image src='../../images/text/w-6.jpg'></image>
+    <view class="swiper-nav-info">
+      <view>
+        <span class="title">
+          <text>魔域-格林城堡</text>
+        </span>
+        <span class="price">
+          <text>￥1850-2650</text>
+        </span>
+      </view>
+      <view class="msg">
+        <text>厦门市湖里区县后社</text>
+      </view>
+    </view>
+  </view>
+  <view class="swiper-nav-list">
+    <image src='../../images/text/w-4.jpg'></image>
+    <view class="swiper-nav-info">
+      <view>
+        <span class="title">
+          <text>魔域-格林城堡</text>
+        </span>
+        <span class="price">
+          <text>￥1850-2650</text>
+        </span>
+      </view>
+      <view class="msg">
+        <text>厦门市湖里区县后社</text>
+      </view>
+    </view>
+  </view>
+  <view class="swiper-nav-list">
+    <image src='../../images/text/w-4.jpg'></image>
+    <view class="swiper-nav-info">
+      <view>
+        <span class="title">
+          <text>魔域-格林城堡</text>
+        </span>
+        <span class="price">
+          <text>￥1850-2650</text>
+        </span>
+      </view>
+      <view class="msg">
+        <text>厦门市湖里区县后社</text>
+      </view>
+    </view>
+  </view>
+  <view class="swiper-nav-list">
+    <image src='../../images/text/w-3.jpg'></image>
+    <view class="swiper-nav-info">
+      <view>
+        <span class="title">
+          <text>魔域-格林城堡</text>
+        </span>
+        <span class="price">
+          <text>￥1850-2650</text>
+        </span>
+      </view>
+      <view class="msg">
+        <text>厦门市湖里区县后社</text>
+      </view>
+    </view>
+  </view>
+</view>

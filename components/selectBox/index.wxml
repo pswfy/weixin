@@ -1,0 +1,14 @@
+<view class="container">
+  <view class="item item-1">
+    <text>商圈</text>
+    <image src='../../images/icon/xia.png'></image>
+  </view>
+  <view class="item item-2">
+    <text>价格</text>
+    <image src='../../images/icon/xia.png'></image>
+  </view>
+  <view class="item item-3">
+    <text>户型</text>
+    <image src='../../images/icon/xia.png'></image>
+  </view>
+</view>
