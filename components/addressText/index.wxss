@@ -1,0 +1,7 @@
+.content{
+  font-size: 28rpx;
+  display: inline-flex;
+  box-sizing: border-box;
+  padding: 6rpx 0rpx;
+  color: #666;
+}

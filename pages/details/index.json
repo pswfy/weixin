@@ -1,6 +1,13 @@
 {
   "usingComponents": {
-    "w-detalils-swiper":"../../components/detailsSwiper/index"
+    "w-detalils-swiper":"../../components/detailsSwiper/index",
+    "w-title-text": "../../components/titleText/index",
+    "w-address-text": "../../components/addressText/index",
+    "w-address-icon": "../../components/addressIcon/index",
+    "v-tag": "../../components/tag/index",
+    "v-bills_type": "../../components/billsType/index",
+    "v-fast": "../../components/fast/index",
+    "v-configure": "../../components/configure/index"
   },
   "navigationStyle":"custom"
 }

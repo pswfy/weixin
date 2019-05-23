@@ -1,0 +1,15 @@
+<view class="container">
+  <view class="img">
+    <image class="image" mode="scaleToFill" src="../../images/text/w-4.jpg"></image>
+  </view>
+  <view class="info">
+    <view class="title"><text class="infoText">一室一厅，两室一厅，三室一厅</text></view>
+    <view class="msg">
+      <text class="msg-info">卫生间|独卫|小区</text>
+    </view>
+    <view class="content">
+      <text class="price">1500-1900</text>
+      <text class="yes-not">有房</text>
+    </view>
+  </view>
+</view>

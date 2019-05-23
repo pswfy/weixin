@@ -10,7 +10,21 @@ Component({
    * 组件的属性列表
    */
   properties: {
-    text:String
+    text: {
+      type: String
+    },
+    de: {
+      type: Boolean,
+      value: false
+    },
+    bg: {
+      type: Boolean,
+      value: false
+    },
+    bd: {
+      type: Boolean,
+      value: false
+    }
   },
 
   /**

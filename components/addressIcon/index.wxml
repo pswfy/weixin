@@ -1,0 +1,4 @@
+<view class="content" catchtap='onGoMapInfo'>
+  <view class="icon-content"><image class="icon" src="../../images/icon/address-icon.png"></image></view>
+  <text class="text-content">位置</text>
+</view>

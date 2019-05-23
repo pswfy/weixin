@@ -1,4 +1,4 @@
-.container{
+.de{
   display: inline-flex;
   flex-direction: row;
   align-content: center;
@@ -9,4 +9,29 @@
   border-radius: 2px;
   font-size: 28rpx;
   margin: 10rpx 10rpx;
+}
+.bg{
+  display: inline-flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: cebter;
+  background-color: #FFD39B;
+  color: #555555;
+  padding: 4rpx 16rpx;
+  font-size: 24rpx;
+  margin:0 10rpx;
+  border-radius: 16rpx;
+}
+.bd{
+  display: inline-flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: cebter;
+  font-size: 24rpx;
+  border-radius: 4rpx;
+  color: #EE9A00;
+  padding: 2rpx 4rpx;
+  margin:0  8rpx;
+  box-sizing: border-box;
+  border: 1px solid #EE9A00;
 }

@@ -1,0 +1,10 @@
+<view class="container">
+  <view class="left">
+    <view class="share"><van-icon name="share" /></view>
+    <view catchtap='goToPhone' class="phone-o"><van-icon name="phone-o" /></view>
+  </view>
+  <view class="right">
+    <view class="share"><van-icon name="service-o" /></view>
+    <view class="phone-o"><van-icon name="underway-o" /></view>
+  </view>
+</view>

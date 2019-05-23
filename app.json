@@ -1,14 +1,15 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/details/index",
     "pages/home/index",
     "pages/my/index",
-    "pages/details/index"
+    "pages/maxInfo/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "公寓ADC",
+    "navigationBarTitleText": "WfY",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
@@ -36,5 +37,6 @@
         "pagePath": "pages/my/index"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }

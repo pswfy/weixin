@@ -17,8 +17,12 @@ Component({
         "text":"房间"
       },
       {
-        "url": "../../images/text/w-2.jpg",
+        "url": "../../images/text/w-6.jpg",
         "text": "阳台"
+      },
+      {
+        "url": "../../images/text/w-2.jpg",
+        "text": "舞台"
       },
       {
         "url": "../../images/text/w-3.jpg",

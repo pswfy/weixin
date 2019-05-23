@@ -1,4 +1,4 @@
-<view bind:tap="onTap" class="container tag-class">
+<view bind:tap="onTap" class="tag-class {{de? 'de' : ''}} {{bg? 'bg' : ''}} {{bd? 'bd' : ''}}">
   <slot name="befer"></slot>
   <text>{{text}}</text>
   <slot name="after"></slot>

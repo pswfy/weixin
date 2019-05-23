@@ -1,0 +1,12 @@
+.arrow-left-box{
+  position: fixed;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 40rpx;
+  justify-content: center;
+  width:80rpx;
+  top:70rpx;
+  left:0rpx;
+  color: #333;
+}

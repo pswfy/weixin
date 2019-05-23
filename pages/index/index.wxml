@@ -1,7 +1,7 @@
 <view class="container">
   <!-- 搜索框 -->
   <view class="w-search" wx:if="{{ !searchong }}">
-    <w-search bind:search="onSearch"/>
+    <w-search text='{{sheetText}}' bind:search="onSearch" bind:actionSheet="onActionSheet"/>
   </view>
   <!-- 搜索面板 -->
   <w-showSearch bind:cancel="onCancel" wx:if="{{ searchong }}" />
@@ -20,4 +20,13 @@
   <!-- 公寓展示区  -->
   <w-showBox/>
   <w-showBox/>
+  <!-- 下拉选择城市 -->
+  <van-action-sheet
+  show="{{ showHideActionSheet }}"
+  actions="{{ ActionSheetText }}"
+  cancel-text="取消"
+  bind:close="onClose"
+  bind:cancel="onClose"
+  bind:select="onSelect"
+/>
 </view>

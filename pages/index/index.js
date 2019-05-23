@@ -4,7 +4,10 @@ Page({
    * 页面的初始数据
    */
   data: {
-    searchong: false
+    searchong: false, // 标识是否显示搜索页面
+    showHideActionSheet: false, // 标识是否显示下拉区域
+    sheetText:'厦门', // 默认区域选择
+    ActionSheetText: [{ name: '厦门' }, { name: '北京' }]
   },
   // 展开搜索面板
   onSearch (event) {
@@ -12,10 +15,29 @@ Page({
       searchong: true
     })
   },
+  // 关闭区域选择
+  onClose(event) {
+    this.setData({
+      showHideActionSheet: false
+    })
+  },
+  // 获取区域选择内容
+  onSelect(event) {
+    this.setData({
+      sheetText: event.detail.name,
+      showHideActionSheet: false
+    })
+  },
   // 关闭搜索面板
   onCancel (event) {
     this.setData({
       searchong:false
+    })
+  },
+  // 显示区域选择
+  onActionSheet(event) {
+    this.setData({
+      showHideActionSheet: true
     })
   },
   /**

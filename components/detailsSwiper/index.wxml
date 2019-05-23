@@ -1,12 +1,15 @@
 <view class="comnainer">
+  <!-- 轮播图 -->
   <swiper class="swiper-container" indicator-dots="{{indicatorDots}}"
   autoplay="{{autoplay}}" interval="{{interval}}" circular="{{circular}}" duration="{{duration}}">
   <block wx:for="{{imgUrls}}"  wx:for-index ="index" wx:key="index">
     <swiper-item>
-      <image bind:touchstart = "onSriperTouchstart" data-text="{{item.text}}" src="{{item.url}}" class="slide-image"/>
+      <image mode="scaleToFill"
+ bind:touchstart = "onSriperTouchstart" data-text="{{item.text}}" src="{{item.url}}" class="slide-image"/>
     </swiper-item>
   </block>
   </swiper> 
+  <!-- 指示三角 -->
   <view class="swiper-li">
     <view class="swiper-li-item" wx:for="{{imgUrlsText}}" wx:for-index ="index" wx:key="index">
       <text class="swiper-li-item-text">{{item}}</text>
@@ -14,4 +17,6 @@
       <image wx:elif="{{index === 0 && text === ''}}" src='../../images/icon/sans.png' class="swiper-li-item-icon"></image>
     </view>
   </view>
+  <!-- 返回 -->
+  <w-block />
 </view>

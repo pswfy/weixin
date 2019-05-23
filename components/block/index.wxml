@@ -1,0 +1,1 @@
+<view class="arrow-left-box" bindtap="onBlock" style="top: {{top}}"><van-icon name="arrow-left" /></view>

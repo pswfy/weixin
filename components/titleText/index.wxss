@@ -1,0 +1,7 @@
+.content{
+  display: inline-flex;
+  font-size: 34rpx;
+  color: #333;
+  font-weight: 600;
+  padding: 8rpx 0rpx;
+}
